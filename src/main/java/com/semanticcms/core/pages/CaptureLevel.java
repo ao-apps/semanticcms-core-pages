@@ -28,18 +28,18 @@ package com.semanticcms.core.pages;
  */
 public enum CaptureLevel {
 
-	/**
-	 * Captures page meta data only, such as title, copyright, authors, parents, and children.
-	 */
-	PAGE,
+  /**
+   * Captures page meta data only, such as title, copyright, authors, parents, and children.
+   */
+  PAGE,
 
-	/**
-	 * Captures both page and content meta data.
-	 */
-	META,
+  /**
+   * Captures both page and content meta data.
+   */
+  META,
 
-	/**
-	 * Captures everything: page meta data, content meta data, and all body content.
-	 */
-	BODY;
+  /**
+   * Captures everything: page meta data, content meta data, and all body content.
+   */
+  BODY;
 }

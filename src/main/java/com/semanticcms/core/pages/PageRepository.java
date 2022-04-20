@@ -38,29 +38,29 @@ import java.io.IOException;
  */
 public interface PageRepository {
 
-	/**
-	 * Repositories should provide a meaningful toString implementation, which makes
-	 * sense with the path following.
-	 */
-	@Override
-	String toString();
+  /**
+   * Repositories should provide a meaningful toString implementation, which makes
+   * sense with the path following.
+   */
+  @Override
+  String toString();
 
-	/**
-	 * Checks if the repository is currently available.  A repository that is
-	 * unavailable is likely going to throw exceptions.  Tools are encouraged
-	 * to handle unavailable repositories gracefully, when possible.
-	 */
-	boolean isAvailable();
+  /**
+   * Checks if the repository is currently available.  A repository that is
+   * unavailable is likely going to throw exceptions.  Tools are encouraged
+   * to handle unavailable repositories gracefully, when possible.
+   */
+  boolean isAvailable();
 
-	/**
-	 * Gets a {@link Page} for the given path.
-	 *
-	 * @param path   Must be a {@link Path valid path}
-	 * @param level  The page capture level or {@code null} when not capturing (page will be used for direct display)
-	 *
-	 * @return  the page or {@code null} if does not exist
-	 *
-	 * @throws  IOException  if I/O error occurs
-	 */
-	Page getPage(Path path, CaptureLevel level) throws IOException;
+  /**
+   * Gets a {@link Page} for the given path.
+   *
+   * @param path   Must be a {@link Path valid path}
+   * @param level  The page capture level or {@code null} when not capturing (page will be used for direct display)
+   *
+   * @return  the page or {@code null} if does not exist
+   *
+   * @throws  IOException  if I/O error occurs
+   */
+  Page getPage(Path path, CaptureLevel level) throws IOException;
 }
