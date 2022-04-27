@@ -25,4 +25,4 @@ module com.semanticcms.core.pages {
   // Direct
   requires com.aoapps.net.types; // <groupId>com.aoapps</groupId><artifactId>ao-net-types</artifactId>
   requires com.semanticcms.core.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-model</artifactId>
-}
+} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
