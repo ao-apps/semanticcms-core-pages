@@ -54,7 +54,7 @@ along with semanticcms-core-pages.  If not, see <https://www.gnu.org/licenses/>.
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
-  <name>SemanticCMS Core Pages²</name>
+  <name>SemanticCMS Core Pages</name>
   <url>https://semanticcms.com/core/pages/</url>
   <description>Redistributable sets of SemanticCMS pages.</description>
   <inceptionYear>2017</inceptionYear>
