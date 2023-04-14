@@ -22,7 +22,7 @@ Redistributable sets of [SemanticCMS](https://github.com/ao-apps/semanticcms) pa
 * [Project Home](https://semanticcms.com/core/pages/)
 * [Changelog](https://semanticcms.com/core/pages/changelog)
 * [API Docs](https://semanticcms.com/core/pages/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.semanticcms&q=a%3Asemanticcms-core-pages)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-pages)
 * [GitHub](https://github.com/ao-apps/semanticcms-core-pages)
 
 ## Modules
