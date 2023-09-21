@@ -49,7 +49,7 @@ along with semanticcms-core-pages.  If not, see <https://www.gnu.org/licenses/>.
         <li><a target="${javadoc.target}" href="https://semanticcms.com/core/pages/union/">SemanticCMS Core Pages Union</a></li>
       </ul>
     </div>]]></javadoc.modules>
-    
+
     <description.html><![CDATA[Redistributable sets of <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> pages.]]></description.html>
   </properties>
 
