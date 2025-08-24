@@ -16,3 +16,6 @@ dc951f9a4c95c8eae6ecdc7872f09a0901ee3db4
 
 # Added all whitespace-only commits to .git-blame-ignore-revs
 4ffaf06cf521e4eeb300744587c35e8f546ab0e7
+
+# Removed unnecessary whitespace
+8ea62f1c286570e3a75978dd6d79d7510c2a9c2f
